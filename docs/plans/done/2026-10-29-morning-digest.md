@@ -1,6 +1,6 @@
 ---
 plan: morning-digest
-status: ready
+status: done
 owner: rook
 opened: 2026-10-29
 ---
@@ -77,3 +77,13 @@ page again with `LANE_MARKER` unset (the banner reads "no marker set") and uploa
 link. Move this plan to `docs/plans/done/` with its issue list.
 
 Done when: the preview link no longer shows the lane marker.
+
+## Issue list
+
+- 1: Run log reader: https://github.com/robbiedominionfoster/rig-morning-digest/issues/1
+- 2a: Digest page: GET /digest/:night: https://github.com/robbiedominionfoster/rig-morning-digest/issues/2
+- 2b: Digest JSON: GET /api/digest/:night: https://github.com/robbiedominionfoster/rig-morning-digest/issues/3
+- 2c: Status board links: https://github.com/robbiedominionfoster/rig-morning-digest/issues/4
+- 2d: Digest route tests: https://github.com/robbiedominionfoster/rig-morning-digest/issues/5
+- 3: Publish digest preview for review: https://github.com/robbiedominionfoster/rig-morning-digest/issues/6
+- 4: Remove preview marker and archive plan: https://github.com/robbiedominionfoster/rig-morning-digest/issues/7
